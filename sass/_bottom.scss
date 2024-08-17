@@ -1,0 +1,24 @@
+.navbar__bottom{
+    height: 55px;
+    background-color: #232F3E;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0 20px;
+    .navbar__menu{
+        button{
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 1px solid #ffff;
+        }
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        p{
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+}

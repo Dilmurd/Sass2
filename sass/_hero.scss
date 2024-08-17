@@ -1,0 +1,30 @@
+.hero{
+    .hero__img{
+        width: 100%;
+    }
+    .hero__wrapp{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        padding: 0 20px;
+            .hero__items{
+                position: relative;
+                top: -100%;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                width: 500px;
+                height: 550px;
+                background-color: #fff;
+                align-items: center;
+                padding: 0 20px;
+                .hero__item{
+                    width: 250px;
+                    height: 200px;
+                    img{
+                        width: 200px;
+                        height: 200px;
+                        object-fit: cover;
+                }
+            }
+        }
+    }
+}
