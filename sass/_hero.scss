@@ -6,12 +6,13 @@
         display: grid;
         grid-template-columns: repeat(4 , 1fr);
         padding: 0 20px;
+        grid-gap: 10px;
             .hero__items{
                 position: relative;
                 top: -100%;
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
-                width: 500px;
+                width: 450px;
                 height: 550px;
                 background-color: #fff;
                 align-items: center;
@@ -20,8 +21,8 @@
                     width: 250px;
                     height: 200px;
                     img{
-                        width: 200px;
-                        height: 200px;
+                        width: 150px;
+                        height: 150px;
                         object-fit: cover;
                 }
             }
