@@ -1,8 +1,8 @@
 const show = document.querySelector (".navbar__locations")
-const close = document.querySelector (".btn")
+const close = document.querySelector (".navbar__locatinons")
 function showModel(){
-    navbar__location.style.display = "block"
+    show.style.display = "block"
 }
 function closeModel(){
-    btn.style.display = "none"
+    show.style.display = "none"
 }
